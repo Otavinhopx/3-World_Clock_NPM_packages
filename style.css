@@ -1,0 +1,59 @@
+.card{
+width: 70%;
+height: 500px;
+border: 4px black solid;
+border-radius: 20px;
+margin: 5% 15%;
+}
+
+.card_header{
+width: 20%;
+height: 18px;
+display: flex;
+flex-direction: row;
+margin: 12.5% 0px 0px 55%;
+align-items: center;
+justify-items: center;
+}
+
+.card_header_location{
+font-size: 18px;
+color: rgba(128, 128, 128, 0.63);
+margin-top: 22.5px;
+}
+
+.card_header_button{
+width: 18px;
+height: 18px;
+background: none;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 5px;
+}
+
+.card_header_edit{
+    width: 22px;
+    height: 22px;
+    margin: 0px;
+}
+
+.card_time{
+    font-size: 120px;
+    margin: 0px 0px 0px 27.5%;
+}
+
+.card_date{
+    font-size: 18px;
+    margin: 0px 0px 0px 55%;
+}
+
+
+.card_header_button:hover{
+    width: 19px;
+    height: 19px;
+    background: rgba(170, 170, 170, 0.397);
+    border: none;
+    }
+
