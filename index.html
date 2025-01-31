@@ -11,11 +11,46 @@
 <section class="card">
     <div class="card_header">
         <p class="card_header_location">América / Brasília</p>
-        <button class="card_header_button"><img src="assets/icon.png" alt="edit" class="card_header_edit"></button>
+        <button class="card_header_button" data-micromodal-trigger="modal-1"></button><img src="assets/icon.png" alt="edit" class="card_header_edit"></button>
     </div>
     <h2 class="card_time" id="dateHour"></h2>
     <p class="card_date" id="dateDay"></p>
 </section>
+<div id="modal-1" aria-hidden="true">
+
+    <div tabindex="-1" data-micromodal-close class="modal_overlay">
+  
+      <div role="dialog" class="modal_container" aria-modal="true" aria-labelledby="modal-1-title" >
+  
+  
+        <header>
+          <h2 id="modal-1-title" class="modal_title">
+            Change timezone:
+          </h2>
+  
+        </header>
+  
+        <div id="modal-1-content" class="modal_content">
+            <div class="modal_options">
+            <form action="">
+                <input list="options" class="modal_list">
+                <datalist id="options"~class="modal_data">
+                <option value="Brasilia (BRT UTC-3)" />
+                <option value="New York (CST UTC-6)" />
+                <option value="Spain (CET UTC+1)" />
+                <option value="Japan (JST UTC+9)" />
+                <option value="Australia (ACT UTC+9:30/+10:30)" />
+            </form>
+            </datalist>
+            <Button class="modal_apply">Apply</Button>
+            </div>
+        </div>
+        
+  
+      </div>
+    </div>
+  </div>
+<script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
 <script src="/script.js"></script>
 </body>
