@@ -109,3 +109,12 @@ margin-left: 5px;
 .modal_data{
     content-visibility: none;
 }
+
+
+.modal {
+    display: none;
+  }
+  
+  .modal.is-open {
+    display: block;
+  }
