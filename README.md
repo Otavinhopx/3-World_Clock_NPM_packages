@@ -19,7 +19,7 @@ World Clock é um projeto desenvolvido como parte do roadmap de desenvolvimento 
 ## Como Executar o Projeto
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/world-clock.git
+   git clone https://github.com/Otavinhopx/3-World_Clock_NPM_packages
    ```
 2. Acesse a pasta do projeto:
    ```sh
